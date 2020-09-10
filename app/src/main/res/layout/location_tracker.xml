@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity = "center"
+    android:background="#000000"
+    android:orientation = "vertical"
+    tools:context=".MainActivity">
+
+    <!--    <Button-->
+<!--        android:id="@+id/sendMsg"-->
+<!--        android:layout_width="177dp"-->
+<!--        android:layout_height="66dp"-->
+<!--        android:onClick="sendMsgs"-->
+<!--        android:text="SendMsg"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.102"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.404"-->
+<!--        tools:ignore="OnClick" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/rcdBtn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:onClick="startRecording"-->
+<!--        android:text="Record"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.074"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.601"-->
+<!--        tools:ignore="OnClick" />-->
+
+    <Button
+        android:id="@+id/startAction"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/round_button"
+        android:gravity="center_vertical"
+        android:text="@string/start"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.342" />
+
+<!--    <Button-->
+<!--        android:id="@+id/btnGetLoc"-->
+<!--        android:layout_width="182dp"-->
+<!--        android:layout_height="66dp"-->
+<!--        android:text="GetLocation"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.497"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+
+<!--        app:layout_constraintVertical_bias="0.739" />-->
+
+    <!--    <Button-->
+<!--        android:id="@+id/playBtn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:onClick="playRecording"-->
+<!--        android:text="Play"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.498"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.85"-->
+<!--        tools:ignore="OnClick" />-->
+
+    <Button
+        android:id="@+id/stpBtn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/round_button"
+        android:text="Stop"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.342" />
+
+
+<!--    <Button-->
+<!--        android:id="@+id/openFile"-->
+<!--        android:layout_width="115dp"-->
+<!--        android:layout_height="39dp"-->
+<!--        android:background="#F5F5F5"-->
+<!--        android:onClick="openFiles"-->
+<!--        android:text="Files"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.054"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.978" />-->
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="149dp"
+        android:layout_height="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#000000"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="#1aff00"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.165" />
+
+    <Button
+        android:id="@+id/settingbtn"
+        android:layout_width="115dp"
+        android:layout_height="39dp"
+        android:background="#F5F5F5"
+        android:text="Settings"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <Button
+        android:id="@+id/btnplay"
+        android:layout_width="115dp"
+        android:layout_height="39dp"
+        android:background="#F5F5F5"
+        android:text="Play"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.676" />
+
+    <Button
+        android:id="@+id/btnstp"
+        android:layout_width="115dp"
+        android:layout_height="39dp"
+        android:background="#F5F5F5"
+        android:text="Stop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.768" />
+</androidx.constraintlayout.widget.ConstraintLayout>
